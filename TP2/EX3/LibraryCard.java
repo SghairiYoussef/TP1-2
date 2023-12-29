@@ -8,9 +8,9 @@ public class LibraryCard {
         this.cardNumber = cardNumber;
         this.name = person.getName();
         if (person instanceof Student) {
-            this.maxBooks = 4;
+            this.maxBooks = 5;
         } else {
-            this.maxBooks = 6;
+            this.maxBooks = 10;
         }
         this.expirationYear = expirationYear;
     }
